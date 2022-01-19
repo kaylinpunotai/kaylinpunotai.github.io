@@ -1,13 +1,14 @@
 :root{
-  --white: #F0F5F1;
-  --black: #222F2E;
-  --pitch-black: #0D0F0F;
-  --accent: #EDA73B;
-  --accent-highlight: #E4B062;
-  --light-accent: #91A396;
+  --white: #E8EDE8;
+  --light-accent: #67A18E;
+  --accent: #6894B2;
+  --dark-accent: #697191;
+  --black: #172A4F;
+  --pitch-black: #172A;
   --light-accent-highlight: #9FABA1;
-  --dark-accent: #B34E42;
+  --accent-highlight: #E4B062;
   --dark-accent-highlight: #B1655A;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,47 +18,4 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--black);
   color: var(--white);
-}
-
-#navBar {
-  background-color: var(--accent);
-  position: fixed;
-  top: 25px;
-  left: 25px;
-  z-index: 10;
-  border-radius: 50px;
-  padding: 0 25px;
-}
-
-#navBar a {
-  float: left;
-  display: block;
-  color: var(--white);
-  text-align: center;
-  font-size: 15px;
-  padding: 15px;
-  text-decoration: none;
-}
-
-#navBar a:hover {
-  background-color: var(--accent-highlight);
-}
-
-#resume {
-  position: fixed;
-  top: 25px;
-  right: 25px;
-  background-color: var(--dark-accent);
-  display: block;
-  color: var(--white);
-  text-align: center;
-  font-size: 15px;
-  padding: 15px;
-  text-decoration: none;
-  z-index: 10;
-  border-radius: 10px;
-}
-
-#resume:hover {
-  background-color: var(--dark-accent-highlight);
 }

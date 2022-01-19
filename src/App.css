@@ -2,49 +2,102 @@
   text-align: center;
 }
 
-h1 {
-  text-align: left;
+#navBar {
+  background-color: var(--accent);
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  z-index: 10;
+  border-radius: 50px;
+  padding: 0 25px;
+}
+
+#navBar a {
+  float: left;
+  display: block;
+  color: var(--white);
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navBar a:hover {
+  background-color: var(--accent-highlight);
+}
+
+#contactBar {
+  background-color: var(--accent);
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 10;
+  border-radius: 50px;
+  padding: 0 25px;
+}
+
+#contactBar a {
+  float: left;
+  display: block;
+  color: var(--white);
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.icon {
+  padding: 5px;
+}
+
+#resume {
+  padding: 15px;
+}
+
+#resume:hover {
+  background-color: var(--accent-highlight);
+}
+
+.app-section {
+  padding-top: 100px;
 }
 
 #home {
   position: relative;
-  /* top: 100px; */
   height: 100vh;
+  padding-top: 0;
 }
 
 .home-left {
   position: absolute;
-  top: 200px;
-  width: 40vw;
+  top: calc(50vh - 150px);
+  width: 60vw;
 }
 
 #headshot {
   position: absolute;
-  left: 30%;
+  left: 20vw;
   height: 300px;
   width: 300px;
   border-radius: 10px;
   z-index: 2;
-  box-shadow: 0 5px 5px var(--black);
+  box-shadow: 3px 3px 10px var(--black);
 }
 
 #headshot-block {
   position: absolute;
-  left: calc(30% - 50px);
-  top: 20px;
+  left: calc(20vw + 25px);
+  top: 25px;
   border-radius: 10px;
-  background-color: var(--white);
+  background-color: var(--accent);
   z-index: 1;
-  height: 350px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
 }
 
 .home-right {
   position: absolute;
-  width: 60vw;
   height: 100vh;
-  right: 0;
-  padding-left: 50px;
+  left: calc(20vw + 300px + 25px + 25px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,4 +113,35 @@ h1 {
   font-size: 20px;
   color: var(--accent);
   text-align: left;
+}
+
+.header {
+  font-size: 30px;
+  text-align: right;
+  position: relative;
+  right: 65vw;
+}
+
+.content {
+  text-align: left;
+  position: relative;
+  top: -50px;
+  left: 40vw;
+  width: calc(100vw - 40vw);
+  padding: 20px 0;
+  width: 40vw;
+}
+
+.content-title {
+  font-size: 20px;
+}
+
+.content-sub {
+  color: var(--accent);
+  font-size: 16px;
+  font-style: italic;
+}
+
+#projects {
+  padding-bottom: 50px;
 }

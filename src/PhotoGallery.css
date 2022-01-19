@@ -1,0 +1,38 @@
+.PhotoGallery {
+  border-radius: 10vh;
+  border-style: solid;
+  border-color: var(--black);
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 78vh;
+}
+
+#prev-arrow {
+  position: absolute;
+  z-index: 4;
+  left: 3rem;
+  top: calc(50vh + 3*100vh + -45px);
+  font-size: 3rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+#prev-arrow:hover {
+  transform: scale(1.2);
+  transition-duration: 100ms;
+}
+
+#next-arrow {
+  position: absolute;
+  z-index: 4;
+  right: 3rem;
+  top: calc(50vh + 3*100vh + -45px);
+  font-size: 3rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+#next-arrow:hover {
+  transform: scale(1.2);
+  transition-duration: 100ms;
+}
