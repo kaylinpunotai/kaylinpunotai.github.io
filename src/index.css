@@ -1,14 +1,13 @@
 :root{
-  --white: #E8EDE8;
+  --white: #F5F1F0;
   --light-accent: #67A18E;
-  --accent: #6894B2;
+  --accent: #648EB0;
   --dark-accent: #697191;
-  --black: #172A4F;
+  --black: #0E2240;
   --pitch-black: #172A;
   --light-accent-highlight: #9FABA1;
-  --accent-highlight: #E4B062;
+  --accent-highlight: #6990ae;
   --dark-accent-highlight: #B1655A;
-  scroll-behavior: smooth;
 }
 
 body {
