@@ -22,6 +22,30 @@
   background-color: var(--accent-highlight);
 }
 
+#resumeButton {
+  background-color: var(--light-accent);
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 10;
+  border-radius: 50px;
+  padding: 0 0px;
+}
+
+#resumeButton a {
+  float: left;
+  display: block;
+  color: var(--white);
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#resumeButton:hover {
+  background-color: var(--light-accent-highlight);
+}
+
 #contactBar {
   background-color: var(--accent);
   display: flex;
@@ -145,7 +169,7 @@
 .skill-row {
   display: flex;
   flex-direction: row;
-  width: 40vw;
+  width: 45vw;
 }
 
 .proj {
@@ -246,4 +270,220 @@
 
 .project-links .github:hover {
   color: var(--accent-highlight);
+}
+
+
+
+@media (max-width: 1200px) {
+  #navBar {
+    display: none;
+  }
+  
+  .app-section {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #home {
+    position: relative;
+    height: 100vh;
+    padding-top: 0;
+  }
+  
+  .home-left {
+    position: absolute;
+    top: 40vh;
+    width: 60vw;
+  }
+  
+  #headshot {
+    position: absolute;
+    left: calc(50vw - 325px/2);
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    z-index: 2;
+    box-shadow: 1px 1px 10px var(--black);
+  }
+  
+  #headshot-block {
+    position: absolute;
+    left: calc(50vw - 275px/2);
+    top: 25px;
+    border-radius: 10px;
+    background-color: var(--accent);
+    z-index: 1;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .home-right {
+    position: absolute;
+    height: 100vh;
+    top: -20vh;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #title-name {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #title-sub {
+    font-size: 20px;
+    color: var(--accent);
+    text-align: center;
+  }
+  
+  .header {
+    font-size: 30px;
+    text-align: left;
+    position: absolute;
+    left: 10vw;
+  }
+  
+  .content {
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+    top: 30px;
+    left: 15vw;
+    padding-top: 30px;
+    width: 70vw;
+  }
+  
+  .content-title {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .content-sub {
+    color: var(--accent);
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 8px;
+    position: relative;
+  }
+  
+  .content-date {
+    color: var(--accent);
+    font-size: 15px;
+    font-style: italic;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 62px;
+  }
+  
+  .skill-row {
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+  }
+  
+  .proj {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    position: relative;
+    left: calc((53vw)/2 - 20px);
+    padding: 20px 0;
+    width: 53vw;
+    top: 50px;
+  }
+  
+  .bg-block {
+    position: absolute;
+    background-color: var(--white);
+    top: 4vw;
+    height: 50vw;
+    width: 53vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: -1;
+  }
+  
+  .project-pics {
+    width: 50vw;
+    position: relative;
+    margin-left: calc((55vw - 52vw) / 2);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px var(--black);
+    z-index: 2;
+    background-color: var(--accent);
+  }
+  
+  .project-block {
+    position: relative;
+    padding: 15px 3vw 15px 3vw;
+    background-color: var(--white);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .project-tags {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .tag {
+    margin: 0 3px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: var(--accent);
+    color: var(--accent);
+    font-size: 15px;
+  }
+  
+  .project-title {
+    margin-top: 8px;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .project-desc {
+    margin-top: 8px;
+    color: var(--black);
+    font-size: 15px;
+  }
+  
+  .project-links {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .project-links .button {
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--accent);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 5px;
+  }
+  
+  .project-links .button:hover {
+    background-color: var(--accent-highlight);
+  }
+  
+  .project-links .github {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    color: var(--accent);
+    font-size: 40px;
+  }
+  
+  .project-links .github:hover {
+    color: var(--accent-highlight);
+  }
 }

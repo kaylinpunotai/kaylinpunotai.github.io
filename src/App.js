@@ -13,7 +13,10 @@ function App() {
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a id="resume" href="Files/Resume.pdf" target="_blank" rel="noreferrer" >Resume</a>
+      </div>
+
+      <div id="resumeButton">
+        <a id="resume" href="Files/Resume.pdf" target="_blank" rel="noreferrer" >View my resume</a>
       </div>
 
       <div id="contactBar">
@@ -38,7 +41,7 @@ function App() {
         </div>
         <div className="home-right">
           <div id="title-name">Kaylin Punotai</div>
-          <div id="title-sub">Software Engineer in San Francisco</div>
+          <div id="title-sub">Software Engineer in Chicago</div>
         </div>
       </div>
       
@@ -46,11 +49,10 @@ function App() {
         <div className="header">About</div>
         <div className="content">
           <div className="content-title">
-            Hi, I'm Kaylin! I'm a self-taught software engineer with experience in React, 
+            Hi, I'm Kaylin! I'm a self-taught software engineer with experience in React, Ruby, 
             JavaScript, and C#.
 
-            I am currently a process engineer at Intel and seeking opportunities to break
-            into the programming field.
+            I am currently seeking opportunities to break into the programming field.
           </div>
         </div>
       </div>
@@ -72,9 +74,14 @@ function App() {
       <div className="app-section" id="experience">
         <div className="header">Experience</div>
         <div className="content">
+          <div className="content-title">Jade Mechanical Services, LLC</div>
+          <div className="content-sub">Vice President</div>
+          <div className="content-date">Apr 2022 - Present</div>
+        </div>
+        <div className="content">
           <div className="content-title">Intel Corporation</div>
           <div className="content-sub">Wafer Sort Process Engineer</div>
-          <div className="content-date">Jul 2019 - Present</div>
+          <div className="content-date">Jul 2019 - Mar 2022</div>
         </div>
         <div className="content">
           <div className="content-title">The Hershey Company</div>
@@ -94,11 +101,11 @@ function App() {
           <div className="content">
             <div className="content-title">Programming</div>
             <div className="content-sub">C#</div>
-            <div className="content-sub">CSS</div>
-            <div className="content-sub">HTML</div>
+            <div className="content-sub">CSS/HTML</div>
             <div className="content-sub">JavaScript</div>
             <div className="content-sub">Python</div>
             <div className="content-sub">React</div>
+            <div className="content-sub">Ruby</div>
             <div className="content-sub">VBScript</div>
             <div className="content-sub">Windows Batch Scripting</div>
           </div>
@@ -106,7 +113,6 @@ function App() {
             <div className="content-title">Data Analysis</div>
             <div className="content-sub">JMP/JSL</div>
             <div className="content-sub">Matlab</div>
-            <div className="content-sub">SQLPathFinder</div>
             <div className="content-sub">Wolfram Mathematica</div>
           </div>
           <div className="content">

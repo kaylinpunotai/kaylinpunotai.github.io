@@ -29,3 +29,37 @@
   transform: scale(1.2);
   transition-duration: 100ms;
 }
+
+@media (max-width: 1200px) {
+  .prev-arrow {
+    position: absolute;
+    color: var(--black);
+    z-index: 4;
+    right: 6vw;
+    padding-top: 5px;
+    font-size: 50px;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .prev-arrow:hover {
+    transform: scale(1.2);
+    transition-duration: 100ms;
+  }
+
+  .next-arrow {
+    position: absolute;
+    color: var(--black);
+    z-index: 4;
+    right: 2vw;
+    padding-top: 5px;
+    font-size: 50px;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .next-arrow:hover {
+    transform: scale(1.2);
+    transition-duration: 100ms;
+  }
+}
