@@ -2,7 +2,7 @@
   position: absolute;
   color: var(--black);
   z-index: 4;
-  right: calc(2vw + 3vw);
+  right: calc(1vw + 35px);
   padding-top: 5px;
   font-size: 50px;
   user-select: none;
@@ -18,7 +18,7 @@
   position: absolute;
   color: var(--black);
   z-index: 4;
-  right: 2vw;
+  right: 1vw;
   padding-top: 5px;
   font-size: 50px;
   user-select: none;
@@ -28,38 +28,4 @@
 .next-arrow:hover {
   transform: scale(1.2);
   transition-duration: 100ms;
-}
-
-@media (max-width: 1200px) {
-  .prev-arrow {
-    position: absolute;
-    color: var(--black);
-    z-index: 4;
-    right: 6vw;
-    padding-top: 5px;
-    font-size: 50px;
-    user-select: none;
-    cursor: pointer;
-  }
-
-  .prev-arrow:hover {
-    transform: scale(1.2);
-    transition-duration: 100ms;
-  }
-
-  .next-arrow {
-    position: absolute;
-    color: var(--black);
-    z-index: 4;
-    right: 2vw;
-    padding-top: 5px;
-    font-size: 50px;
-    user-select: none;
-    cursor: pointer;
-  }
-
-  .next-arrow:hover {
-    transform: scale(1.2);
-    transition-duration: 100ms;
-  }
 }

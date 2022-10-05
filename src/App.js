@@ -1,5 +1,6 @@
 import './App.css';
 import PhotoGallery from './PhotoGallery.js';
+import HamburgerMenu from './HamburgerMenu.js';
 import { IoMailSharp as EmailIcon, IoLogoLinkedin as LinkedInIcon, IoLogoGithub as GithubIcon} from 'react-icons/io5';
 
 function App() {
@@ -17,6 +18,27 @@ function App() {
 
       <div id="resumeButton">
         <a id="resume" href="Files/Resume.pdf" target="_blank" rel="noreferrer" >View my resume</a>
+      </div>
+
+      <div id="hamburgerMenu">
+        <HamburgerMenu>
+          <div 
+            title="Email"
+            link="mailto:kaylin.punotai@gmail.com"
+          />
+          <div 
+            title="Github"
+            link="https://github.com/kaylinpunotai"
+          />
+          <div 
+            title="LinkedIn"
+            link="https://www.linkedin.com/in/kaylin-punotai/"
+          />
+          <div 
+            title="View my resume"
+            link="Files/Resume.pdf"
+          />
+        </HamburgerMenu>
       </div>
 
       <div id="contactBar">
