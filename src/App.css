@@ -6,6 +6,7 @@
   z-index: 10;
   border-radius: 50px;
   padding: 0 25px;
+  box-shadow: 1px 1px 10px var(--black);
 }
 
 #navBar a {
@@ -30,6 +31,7 @@
   z-index: 10;
   border-radius: 50px;
   padding: 0 0px;
+  box-shadow: 1px 1px 10px var(--black);
 }
 
 #resumeButton a {
@@ -52,6 +54,7 @@
   z-index: 10;
   top: 10px;
   left: calc(100vw - 55px);
+  box-shadow: 1px 1px 10px var(--black);
 }
 
 #contactBar {
@@ -64,6 +67,7 @@
   z-index: 10;
   border-radius: 50px;
   padding: 15px;
+  box-shadow: 1px 1px 10px var(--black);
 }
 
 #contactBar a {
@@ -285,8 +289,12 @@
 
 /* for medium size screens  */
 @media (min-width: 801px) and (max-width: 1200px) {
+  #home {
+    height: max(100vh, calc(200px + 10vh + 325px));
+  }
+
   .home-left {
-    top: 40vh;
+    top: calc(200px + 10vh);
   }
   
   #headshot {
@@ -299,7 +307,7 @@
   
   .home-right {
     height: auto;
-    bottom: calc(50vh + 125px);
+    top: 125px;
     left: 5vw;
     width: 90vw;
   }
@@ -362,9 +370,14 @@
     display: flex;
   }
 
-  .home-left {
-    top: 40vh;
+  #home {
+    height: max(100vh, calc(150px + 10vh + 325px));
   }
+
+  .home-left {
+    top: calc(150px + 10vh);
+  }
+  
   
   #headshot {
     left: calc(50vw - 325px/2);
@@ -376,7 +389,7 @@
   
   .home-right {
     height: auto;
-    bottom: calc(50vh + 125px);
+    top: 60px;
     left: 5vw;
     width: 90vw;
   }

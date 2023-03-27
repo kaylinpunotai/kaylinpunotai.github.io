@@ -29,3 +29,16 @@
   transform: scale(1.2);
   transition-duration: 100ms;
 }
+
+/* for teeny tiny screens  */
+@media (max-width: 800px) {
+  .prev-arrow:hover {
+    transform: scale(1);
+    transition-duration: 100ms;
+  }
+
+  .next-arrow:hover {
+    transform: scale(1);
+    transition-duration: 100ms;
+  }
+}
