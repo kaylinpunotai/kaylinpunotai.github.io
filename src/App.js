@@ -17,7 +17,7 @@ function App() {
       </div>
 
       <div id="resumeButton">
-        <a id="resume" href="Files/Resume.pdf" target="_blank" rel="noreferrer" >View my resume</a>
+        <a id="resume" href="Files/Resume.pdf" target="_blank" rel="noreferrer" >View My Resume</a>
       </div>
 
       <div id="hamburgerMenu">
@@ -35,7 +35,7 @@ function App() {
             link="https://www.linkedin.com/in/kaylin-punotai/"
           />
           <div 
-            title="View my resume"
+            title="View My Resume"
             link="Files/Resume.pdf"
           />
         </HamburgerMenu>

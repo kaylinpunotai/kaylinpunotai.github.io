@@ -1,5 +1,5 @@
 #navBar {
-  background-color: var(--accent);
+  background-color: var(--accent2);
   position: fixed;
   top: 25px;
   left: 25px;
@@ -19,11 +19,11 @@
 }
 
 #navBar a:hover {
-  background-color: var(--accent-highlight);
+  background-color: var(--accent2-highlight);
 }
 
 #resumeButton {
-  background-color: var(--light-accent);
+  background-color: var(--accent1);
   position: fixed;
   top: 25px;
   right: 25px;
@@ -43,7 +43,7 @@
 }
 
 #resumeButton:hover {
-  background-color: var(--light-accent-highlight);
+  background-color: var(--accent1-highlight);
 }
 
 #hamburgerMenu {
@@ -55,7 +55,7 @@
 }
 
 #contactBar {
-  background-color: var(--accent);
+  background-color: var(--accent2);
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -107,7 +107,7 @@
   left: calc(20vw + 25px);
   top: 25px;
   border-radius: 10px;
-  background-color: var(--accent);
+  background-color: var(--accent2);
   z-index: 1;
   height: 300px;
   width: 300px;
@@ -130,7 +130,7 @@
 
 #title-sub {
   font-size: 20px;
-  color: var(--accent);
+  color: var(--accent2);
   text-align: left;
 }
 
@@ -157,7 +157,7 @@
 }
 
 .content-sub {
-  color: var(--accent);
+  color: var(--accent2);
   font-size: 15px;
   font-style: italic;
   margin-top: 8px;
@@ -165,7 +165,7 @@
 }
 
 .content-date {
-  color: var(--accent);
+  color: var(--accent2);
   font-size: 15px;
   font-style: italic;
   position: absolute;
@@ -209,7 +209,7 @@
   border-radius: 10px;
   box-shadow: 1px 1px 10px var(--black);
   z-index: 2;
-  background-color: var(--accent);
+  background-color: var(--accent2);
 }
 
 .project-block {
@@ -232,8 +232,8 @@
   padding: 5px;
   border-style: solid;
   border-radius: 7px;
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--accent2);
+  color: var(--accent2);
   font-size: 15px;
 }
 
@@ -260,26 +260,26 @@
 .project-links .button {
   color: var(--white);
   text-decoration: none;
-  background-color: var(--accent);
+  background-color: var(--accent2);
   padding: 10px;
   border-radius: 20px;
   margin: 0 5px;
 }
 
 .project-links .button:hover {
-  background-color: var(--accent-highlight);
+  background-color: var(--accent2-highlight);
 }
 
 .project-links .github {
   position: absolute;
   bottom: 5px;
   right: 20px;
-  color: var(--accent);
+  color: var(--accent2);
   font-size: 40px;
 }
 
 .project-links .github:hover {
-  color: var(--accent-highlight);
+  color: var(--accent2-highlight);
 }
 
 
@@ -401,7 +401,7 @@
   }
 
   .content-date {
-    color: var(--accent);
+    color: var(--accent2);
     font-size: 15px;
     font-style: italic;
     position: relative;
