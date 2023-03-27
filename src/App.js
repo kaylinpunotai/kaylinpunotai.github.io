@@ -72,8 +72,11 @@ function App() {
         <div className="content">
           <div className="content-title">
             Hi, I'm Kaylin! I'm a self-taught software engineer with experience in React, Ruby, 
-            JavaScript, and C#.
-
+            JavaScript, and C#, and familiar with data science concepts including Python libraries
+            such as pandas and sklearn.
+          </div>
+          <p></p>
+          <div className="content-title">
             I am currently seeking opportunities to break into the programming field.
           </div>
         </div>
@@ -151,7 +154,65 @@ function App() {
       </div>
 
       <div className="app-section" id="projects">
-        <div className="header">Projects</div>
+      <div className="header">Projects</div>
+
+        <div className="proj" id="mareep">
+          <div className="bg-block"></div>
+          <PhotoGallery>
+            <div 
+              src="Images/mareep-oos.png"
+              alt="mareep-oos"
+            />
+            <div 
+              src="Images/mareep-email.png"
+              alt="mareep-email"
+            />
+          </PhotoGallery>
+          <div className="project-block">
+            <div className="project-tags">
+              <div className="tag">Python</div>
+            </div>
+            <div className="project-title">
+              Mareep Hunting
+            </div>
+            <div className="project-desc">
+              I automated an email alert that tells me when the jumbo Mareep plush is back in stock at
+              the Pokemon Center website. I used SerpAPI to conduct Google Shopping searches and SMTP to
+              send myself an email if the product is available. This program runs twice per day on my 
+              Raspberry Pi.
+            </div>
+            <div className="project-links">
+              <a className="github" href="https://github.com/kaylinpunotai/Mareep-Hunting" target="_blank" rel="noreferrer"><GithubIcon/></a>
+            </div>
+          </div>
+        </div>
+
+        <div className="proj" id="heart-disease">
+          <div className="bg-block"></div>
+          <PhotoGallery>
+            <div 
+              src="Images/hd-comparison.png"
+              alt="heart-disease-comparison"
+            />
+          </PhotoGallery>
+          <div className="project-block">
+            <div className="project-tags">
+              <div className="tag">Python</div>
+            </div>
+            <div className="project-title">
+              Heart Disease Classification
+            </div>
+            <div className="project-desc">
+              Practicing ML classification with heart disease data. I compare logistic regression, SVM,
+              decision tree, random forest, naive bayesian models, and XGBoost then determine the most 
+              reasonable model to predict heart disease in patients.
+            </div>
+            <div className="project-links">
+              <a className="github" href="https://github.com/kaylinpunotai/Heart-Disease-Classification" target="_blank" rel="noreferrer"><GithubIcon/></a>
+            </div>
+          </div>
+        </div>
+
         <div className="proj" id="queens-puzzle">
           <div className="bg-block"></div>
           <PhotoGallery>
@@ -215,7 +276,7 @@ function App() {
           </div>
         </div>
 
-        <div className="proj" id="aws-project">
+        <div className="proj" id="temp-gui-project">
           <div className="bg-block"></div>
           <PhotoGallery>
             <div 
