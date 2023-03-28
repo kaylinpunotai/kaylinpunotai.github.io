@@ -2,7 +2,5 @@
   "short_name": "Kaylin Punotai's React Resume",
   "name": "Kaylin Punotai's React Resume",
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#222F2E"
+  "display": "standalone"
 }
