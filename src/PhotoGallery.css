@@ -7,6 +7,7 @@
   font-size: 50px;
   user-select: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .prev-arrow:hover {
@@ -23,6 +24,7 @@
   font-size: 50px;
   user-select: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .next-arrow:hover {

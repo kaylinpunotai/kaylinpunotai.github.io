@@ -72,7 +72,7 @@ function App() {
         <div className="content">
           <div className="content-title">
             Hi, I'm Kaylin! I'm a self-taught software engineer with experience in React, Ruby, 
-            JavaScript, and C#, and familiar with data science concepts including Python libraries
+            JavaScript, and C#, and familiarity with data science concepts including Python libraries
             such as pandas and sklearn.
           </div>
           <p></p>
